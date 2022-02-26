@@ -1071,7 +1071,7 @@
       },
       "id": 132,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -1251,28 +1251,21 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": {
-        "type": "prometheus",
-        "uid": "akChQwBnz"
-      },
-      "decimals": 2,
-      "description": "",
+      "decimals": 0,
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
-        "h": 12,
+        "h": 10,
         "w": 12,
         "x": 12,
         "y": 16
       },
       "hiddenSeries": false,
-      "id": 70,
+      "id": 103,
       "legend": {
         "alignAsTable": true,
         "avg": true,
         "current": true,
-        "hideEmpty": true,
-        "hideZero": true,
         "max": true,
         "min": false,
         "show": true,
@@ -1287,38 +1280,33 @@
       },
       "percentage": false,
       "pluginVersion": "8.4.2",
-      "pointradius": 0.5,
+      "pointradius": 2,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [
-        {
-          "alias": "/.*transmit$/",
-          "transform": "negative-Y"
-        }
-      ],
+      "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
       "targets": [
         {
-          "expr": "irate(node_network_receive_bytes_total[1m])*8",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "akChQwBnz"
+          },
+          "exemplar": true,
+          "expr": "klv_tx_pool_load",
+          "instant": false,
           "interval": "",
-          "legendFormat": "{{alias}} {{device}} receive",
+          "legendFormat": "{{alias}}",
           "refId": "A"
-        },
-        {
-          "expr": "irate(node_network_transmit_bytes_total[1m])*8",
-          "interval": "",
-          "legendFormat": "{{alias}} {{device}} transmit",
-          "refId": "B"
         }
       ],
       "thresholds": [],
       "timeRegions": [],
-      "title": "Network usage",
+      "title": "Transaction Pool Load",
       "tooltip": {
         "shared": true,
-        "sort": 2,
+        "sort": 0,
         "value_type": "individual"
       },
       "type": "graph",
@@ -1329,13 +1317,12 @@
       },
       "yaxes": [
         {
-          "format": "bps",
-          "label": "transmit（-）/receive（+）",
+          "format": "none",
           "logBase": 1,
           "show": true
         },
         {
-          "format": "short",
+          "format": "none",
           "logBase": 1,
           "show": true
         }
@@ -1446,21 +1433,28 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "decimals": 0,
+      "datasource": {
+        "type": "prometheus",
+        "uid": "akChQwBnz"
+      },
+      "decimals": 2,
+      "description": "",
       "fill": 1,
       "fillGradient": 0,
       "gridPos": {
-        "h": 10,
+        "h": 12,
         "w": 12,
         "x": 12,
-        "y": 28
+        "y": 26
       },
       "hiddenSeries": false,
-      "id": 103,
+      "id": 70,
       "legend": {
         "alignAsTable": true,
         "avg": true,
         "current": true,
+        "hideEmpty": true,
+        "hideZero": true,
         "max": true,
         "min": false,
         "show": true,
@@ -1475,33 +1469,38 @@
       },
       "percentage": false,
       "pluginVersion": "8.4.2",
-      "pointradius": 2,
+      "pointradius": 0.5,
       "points": false,
       "renderer": "flot",
-      "seriesOverrides": [],
+      "seriesOverrides": [
+        {
+          "alias": "/.*transmit$/",
+          "transform": "negative-Y"
+        }
+      ],
       "spaceLength": 10,
       "stack": false,
       "steppedLine": false,
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
-          },
-          "exemplar": true,
-          "expr": "klv_tx_pool_load",
-          "instant": false,
+          "expr": "irate(node_network_receive_bytes_total[1m])*8",
           "interval": "",
-          "legendFormat": "{{alias}}",
+          "legendFormat": "{{alias}} {{device}} receive",
           "refId": "A"
+        },
+        {
+          "expr": "irate(node_network_transmit_bytes_total[1m])*8",
+          "interval": "",
+          "legendFormat": "{{alias}} {{device}} transmit",
+          "refId": "B"
         }
       ],
       "thresholds": [],
       "timeRegions": [],
-      "title": "Transaction Pool Load",
+      "title": "Network usage",
       "tooltip": {
         "shared": true,
-        "sort": 0,
+        "sort": 2,
         "value_type": "individual"
       },
       "type": "graph",
@@ -1512,12 +1511,13 @@
       },
       "yaxes": [
         {
-          "format": "none",
+          "format": "bps",
+          "label": "transmit（-）/receive（+）",
           "logBase": 1,
           "show": true
         },
         {
-          "format": "none",
+          "format": "short",
           "logBase": 1,
           "show": true
         }
@@ -1555,7 +1555,7 @@
   },
   "timezone": "",
   "title": "Your Title",
-  "uid": "Your UID",
-  "version": 15,
+  "uid": "Klever-Dash1",
+  "version": 16,
   "weekStart": "monday"
 }
