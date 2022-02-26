@@ -33,7 +33,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "dark-purple",
+                "color": "#fd03ee",
                 "value": null
               }
             ]
@@ -49,7 +49,7 @@
       },
       "id": 98,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "none",
         "justifyMode": "auto",
         "orientation": "horizontal",
@@ -164,7 +164,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
+                "color": "super-light-purple",
                 "value": null
               }
             ]
@@ -180,7 +180,7 @@
       },
       "id": 130,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -222,7 +222,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
+                "color": "super-light-purple",
                 "value": null
               }
             ]
@@ -238,7 +238,7 @@
       },
       "id": 122,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -382,7 +382,7 @@
       },
       "id": 124,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -429,7 +429,7 @@
               },
               {
                 "color": "red",
-                "value": 80
+                "value": 22
               }
             ]
           }
@@ -444,7 +444,7 @@
       },
       "id": 114,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -486,7 +486,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
+                "color": "blue",
                 "value": null
               }
             ]
@@ -502,7 +502,7 @@
       },
       "id": 128,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -557,7 +557,7 @@
       },
       "id": 104,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "horizontal",
@@ -612,7 +612,7 @@
       },
       "id": 106,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "horizontal",
@@ -657,10 +657,6 @@
               {
                 "color": "green",
                 "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
               }
             ]
           }
@@ -675,7 +671,7 @@
       },
       "id": 126,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -742,7 +738,7 @@
       },
       "id": 97,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "none",
         "justifyMode": "auto",
         "orientation": "horizontal",
@@ -951,7 +947,7 @@
       },
       "id": 112,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -1009,7 +1005,7 @@
       },
       "id": 116,
       "options": {
-        "colorMode": "value",
+        "colorMode": "background",
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
@@ -1555,7 +1551,7 @@
   },
   "timezone": "",
   "title": "Your Title",
-  "uid": "Klever-Dash1",
-  "version": 16,
+  "uid": "Your UID",
+  "version": 18,
   "weekStart": "monday"
 }
