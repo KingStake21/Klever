@@ -1554,8 +1554,8 @@
     ]
   },
   "timezone": "",
-  "title": "<Your Title>",
-  "uid": "<Your UID>",
+  "title": "Your Title",
+  "uid": "Your UID",
   "version": 15,
   "weekStart": "monday"
 }
