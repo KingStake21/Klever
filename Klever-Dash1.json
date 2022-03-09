@@ -66,8 +66,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_epoch_number",
@@ -125,8 +124,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_count_leader",
@@ -138,8 +136,7 @@
         },
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_count_accepted_blocks",
@@ -197,8 +194,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_count_consensus",
@@ -255,8 +251,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_count_consensus_accepted_blocks",
@@ -341,8 +336,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_mem_load_percent",
@@ -399,8 +393,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_slots_per_epoch",
@@ -461,8 +454,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_num_validators",
@@ -519,8 +511,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_highest_final_nonce",
@@ -574,8 +565,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_current_slot",
@@ -629,8 +619,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_num_connected_peers",
@@ -688,8 +677,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_live_validator_nodes",
@@ -755,8 +743,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_connected_nodes",
@@ -817,8 +804,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_mem_load_percent",
@@ -902,8 +888,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_cpu_load_percent",
@@ -964,8 +949,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_slot_duration / 1000",
@@ -1022,8 +1006,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_peak_tps",
@@ -1084,8 +1067,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_is_syncing",
@@ -1145,8 +1127,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_cpu_load_percent",
@@ -1164,8 +1145,7 @@
       "dashLength": 10,
       "dashes": false,
       "datasource": {
-        "type": "prometheus",
-        "uid": "akChQwBnz"
+        "type": "prometheus"
       },
       "description": "",
       "fill": 1,
@@ -1286,8 +1266,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "akChQwBnz"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_tx_pool_load",
@@ -1333,8 +1312,7 @@
       "dashLength": 10,
       "dashes": false,
       "datasource": {
-        "type": "prometheus",
-        "uid": "akChQwBnz"
+        "type": "prometheus"
       },
       "decimals": 2,
       "fill": 1,
@@ -1430,8 +1408,7 @@
       "dashLength": 10,
       "dashes": false,
       "datasource": {
-        "type": "prometheus",
-        "uid": "akChQwBnz"
+        "type": "prometheus"
       },
       "decimals": 2,
       "description": "",
@@ -1551,7 +1528,6 @@
   },
   "timezone": "",
   "title": "Your Title",
-  "uid": "K4z3N37w0rk",
   "version": 18,
   "weekStart": "monday"
 }
