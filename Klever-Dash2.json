@@ -69,8 +69,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_epoch_number",
@@ -127,8 +126,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_count_leader",
@@ -139,8 +137,7 @@
         },
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_count_accepted_blocks",
@@ -225,8 +222,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_is_syncing",
@@ -283,8 +279,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_highest_final_nonce",
@@ -295,8 +290,7 @@
         },
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_current_slot",
@@ -354,8 +348,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_count_consensus",
@@ -365,8 +358,7 @@
         },
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_count_consensus_accepted_blocks",
@@ -423,8 +415,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_slots_per_epoch",
@@ -485,8 +476,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_num_validators",
@@ -543,8 +533,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_connected_nodes",
@@ -605,8 +594,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_live_validator_nodes",
@@ -667,8 +655,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_num_connected_peers",
@@ -729,8 +716,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_slot_duration / 1000",
@@ -791,8 +777,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": false,
           "expr": "klv_peak_tps",
@@ -851,8 +836,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_cpu_load_percent",
@@ -910,8 +894,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_cpu_load_percent",
@@ -996,8 +979,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_tx_pool_load",
@@ -1081,8 +1063,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_mem_load_percent",
@@ -1167,8 +1148,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "irate(node_disk_read_bytes_total[1m])",
@@ -1178,8 +1158,7 @@
         },
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "irate(node_disk_written_bytes_total[1m])",
@@ -1264,8 +1243,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "klv_cpu_load_percent",
@@ -1349,8 +1327,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "irate(node_network_receive_bytes_total[1m])*8",
@@ -1360,8 +1337,7 @@
         },
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "irate(node_network_transmit_bytes_total[1m])*8",
@@ -1446,8 +1422,7 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "3le94SY7z"
+            "type": "prometheus"
           },
           "exemplar": true,
           "expr": "100 - (avg by(alias) (irate(node_cpu_seconds_total{mode=\"idle\"}[1m])) * 100)",
@@ -1488,8 +1463,7 @@
     ]
   },
   "timezone": "",
-  "title": "Klevernator",
-  "uid": "K4z3N37w0rk",
+  "title": "Klever-Node",
   "version": 9,
   "weekStart": "monday"
 }
