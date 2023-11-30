@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #222;
+  font-size: 120%;
+}
+
+.card {
+  background: #000000d0;
+  color: white;
+  padding: 1em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 550px;
+  /* margin: 2em; */
+}
+
+.logo-container {
+  margin-right: em; /* Adjust margin as needed */
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text {
+  color: blueviolet; /* Choose your desired color for the text */
+}
+
+.name {
+  color: rgb(100, 100, 235);
+  margin-top: -.8em;
+  margin-left: 1.5em;
+}
+
+.ticker {
+  color: palevioletred;
+  margin: 0;
+  margin-bottom: 0.8em;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+}
+
+.list,
+.maxDelegation,
+.totalStake,
+.freeSpace,
+.tempRating,
+.commission  {
+  margin: 0;
+  margin-bottom: 0.4em;
+  text-transform: capitalize;
+  padding-left: .5em;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: -1.5em;
+}
+
+.validator.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.validator.loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
