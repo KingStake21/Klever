@@ -59,6 +59,9 @@ def stats(update, context):
     price = "{:,.3f}".format(float(kda_price))
     mc = "{:,.3f}".format(circulatingSupply * kda_price / 1000)
 
+    
+###### YOU CAN CHANGE THE REFERENCE TO KDA TO YOUR TOKEN IN THE MESSAGE BELOW. MODIFY ACCORDINGLY AS YOU WISH ######
+    
     message += f"Name: {name}\nTicker: {ticker}\nPrice: *${price}*\nMC: *{mc} *\n\nAsset Type: {assetType}\nID: {assetID}\nPrecision: {precision}\nMax Supply: {max} kda\nInitial Supply: {init} kda\nCirculating Supply: {circ} kda\nMinted: {mint} kda\nTotal Staked: {staked} kda\nkda:KLV Fee Pool? {poolStatus}\nPool Ratio: {ratio1}%\n--Ex. Transfer: 0.375 {ticker}\nPool Bal: {klvpool} KLV / {kdapool} kda\nTotal Holders: {totalHolders}\n"
 
     context.bot.send_message(chat_id=chat_id, text=message, parse_mode="Markdown")
